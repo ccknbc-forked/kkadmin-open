@@ -39,7 +39,7 @@
     "@iconify/iconify": "^2.1.1",
     "@logicflow/core": "^1.0.7",
     "@logicflow/extension": "^1.0.7",
-    "@vue/runtime-core": "^3.2.29",
+    "@vue/runtime-core": "^3.2.36",
     "@vue/shared": "^3.2.29",
     "@vueuse/core": "^7.5.4",
     "@vueuse/shared": "^7.5.4",
