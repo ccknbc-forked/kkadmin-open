@@ -1478,6 +1478,15 @@
     mousetrap "^1.6.5"
     preact "^10.4.8"
 
+"@logicflow/core@^1.1.19":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@logicflow/core/-/core-1.1.20.tgz#6b87503282685fad4d4ce97362b786dd0d71611d"
+  integrity sha512-I32++G/4/jePOseJNsFVv1BL9bxu23UiLcxaAgd/6S5ccHyr0rWuIRKNqiEI/iys+ADSYxMMwYfGb/5Adw3vHw==
+  dependencies:
+    "@types/mousetrap" "^1.6.4"
+    mousetrap "^1.6.5"
+    preact "^10.4.8"
+
 "@logicflow/extension@^1.0.7":
   version "1.0.7"
   resolved "https://registry.npmmirror.com/@logicflow/extension/-/extension-1.0.7.tgz#573c42ec17e001a211d05e6d842b8b7064ef0e8a"
