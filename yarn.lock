@@ -2373,10 +2373,15 @@
     "@vue/compiler-ssr" "3.2.29"
     "@vue/shared" "3.2.29"
 
-"@vue/shared@3.2.29", "@vue/shared@^3.2.27", "@vue/shared@^3.2.29":
+"@vue/shared@3.2.29", "@vue/shared@^3.2.27":
   version "3.2.29"
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.29.tgz#07dac7051117236431d2f737d16932aa38bbb925"
   integrity sha512-BjNpU8OK6Z0LVzGUppEk0CMYm/hKDnZfYdjSmPOs0N+TR1cLKJAkDwW8ASZUvaaSLEi6d3hVM7jnWnX+6yWnHw==
+
+"@vue/shared@^3.2.36":
+  version "3.2.37"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.37.tgz#8e6adc3f2759af52f0e85863dfb0b711ecc5c702"
+  integrity sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==
 
 "@vue/test-utils@^2.0.0-rc.18":
   version "2.0.0-rc.18"
