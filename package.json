@@ -40,7 +40,7 @@
     "@logicflow/core": "^1.1.19",
     "@logicflow/extension": "^1.1.19",
     "@vue/runtime-core": "^3.2.29",
-    "@vue/shared": "^3.2.29",
+    "@vue/shared": "^3.2.36",
     "@vueuse/core": "^7.5.4",
     "@vueuse/shared": "^7.5.4",
     "@zxcvbn-ts/core": "^1.2.0",
