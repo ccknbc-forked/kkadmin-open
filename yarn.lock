@@ -1478,7 +1478,7 @@
     mousetrap "^1.6.5"
     preact "^10.4.8"
 
-"@logicflow/core@^1.1.19":
+"@logicflow/core@^1.1.20":
   version "1.1.20"
   resolved "https://registry.yarnpkg.com/@logicflow/core/-/core-1.1.20.tgz#6b87503282685fad4d4ce97362b786dd0d71611d"
   integrity sha512-I32++G/4/jePOseJNsFVv1BL9bxu23UiLcxaAgd/6S5ccHyr0rWuIRKNqiEI/iys+ADSYxMMwYfGb/5Adw3vHw==
@@ -1487,12 +1487,12 @@
     mousetrap "^1.6.5"
     preact "^10.4.8"
 
-"@logicflow/extension@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmmirror.com/@logicflow/extension/-/extension-1.0.7.tgz#573c42ec17e001a211d05e6d842b8b7064ef0e8a"
-  integrity sha512-Q4r+tybYqkyy1Ujia4WWp0bye/QIgqAOkG9rY9RPBZdJ4y+QLe6MpbL5cROFEs0G+7AxpIMYDUdwGaMYW0PZHQ==
+"@logicflow/extension@^1.1.19":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@logicflow/extension/-/extension-1.1.20.tgz#e14fcdb8ad6bacb9fea63e0c78bfb1ef134ca3ae"
+  integrity sha512-L/wBU8sARFqVZm9IUp7fM3Wfr4N6pDIqtLOauA4TyXP8ZbEvRkqzBsndh8qFUIJp1WjILmZE6xr8FcW4swvTrQ==
   dependencies:
-    "@logicflow/core" "^1.0.7"
+    "@logicflow/core" "^1.1.20"
     ids "^1.0.0"
     preact "^10.4.8"
 
