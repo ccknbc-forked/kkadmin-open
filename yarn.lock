@@ -1477,10 +1477,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@logicflow/core@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmmirror.com/@logicflow/core/-/core-1.0.7.tgz#f7287e62d2ad44634b65e5acf23f3fd655125977"
-  integrity sha512-+mQNzUKWPyr6NDMhzseoRfpiHtDlj4FwaOG+vNXUlMPLXmlV7aMPZ0EyK+QRl7yHv1hQX4ViRmTbDzR3zjskxA==
+"@logicflow/core@^1.1.19":
+  version "1.2.17"
+  resolved "https://registry.yarnpkg.com/@logicflow/core/-/core-1.2.17.tgz#7330f4a4cb91f01ebb9552cdfc4daa55560c0736"
+  integrity sha512-K6O/bWMBXaobgl6mPVRBcJJB7uFYb0yi+/DAfMHd0xXYMB2w0Zuad0QvOkCLKB1c0cmfUoMU+tGwHVE+ZU7RDA==
   dependencies:
     "@types/mousetrap" "^1.6.4"
     mousetrap "^1.6.5"
@@ -2365,12 +2365,12 @@
   dependencies:
     "@vue/shared" "3.2.29"
 
-"@vue/reactivity@3.2.37":
-  version "3.2.37"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.2.37.tgz#5bc3847ac58828e2b78526e08219e0a1089f8848"
-  integrity sha512-/7WRafBOshOc6m3F7plwzPeCu/RCVv9uMpOwa/5PiY1Zz+WLVRWiy0MYKwmg19KBdGtFWsmZ4cD+LOdVPcs52A==
+"@vue/reactivity@3.3.7":
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.3.7.tgz#48b6671a45ba33039da2c0eb25ae702f924486a9"
+  integrity sha512-cZNVjWiw00708WqT0zRpyAgduG79dScKEPYJXq2xj/aMtk3SKvL3FBt2QKUlh6EHBJ1m8RhBY+ikBUzwc7/khg==
   dependencies:
-    "@vue/shared" "3.2.37"
+    "@vue/shared" "3.3.7"
 
 "@vue/runtime-core@3.2.29":
   version "3.2.29"
@@ -2380,13 +2380,13 @@
     "@vue/reactivity" "3.2.29"
     "@vue/shared" "3.2.29"
 
-"@vue/runtime-core@^3.2.36":
-  version "3.2.37"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.2.37.tgz#7ba7c54bb56e5d70edfc2f05766e1ca8519966e3"
-  integrity sha512-JPcd9kFyEdXLl/i0ClS7lwgcs0QpUAWj+SKX2ZC3ANKi1U4DOtiEr6cRqFXsPwY5u1L9fAjkinIdB8Rz3FoYNQ==
+"@vue/runtime-core@^3.2.29":
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.3.7.tgz#c1eece1c98f936dc69dd0667d11b464579b128fd"
+  integrity sha512-LHq9du3ubLZFdK/BP0Ysy3zhHqRfBn80Uc+T5Hz3maFJBGhci1MafccnL3rpd5/3wVfRHAe6c+PnlO2PAavPTQ==
   dependencies:
-    "@vue/reactivity" "3.2.37"
-    "@vue/shared" "3.2.37"
+    "@vue/reactivity" "3.3.7"
+    "@vue/shared" "3.3.7"
 
 "@vue/runtime-dom@3.2.29":
   version "3.2.29"
@@ -2410,10 +2410,10 @@
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.29.tgz#07dac7051117236431d2f737d16932aa38bbb925"
   integrity sha512-BjNpU8OK6Z0LVzGUppEk0CMYm/hKDnZfYdjSmPOs0N+TR1cLKJAkDwW8ASZUvaaSLEi6d3hVM7jnWnX+6yWnHw==
 
-"@vue/shared@3.2.37":
-  version "3.2.37"
-  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.37.tgz#8e6adc3f2759af52f0e85863dfb0b711ecc5c702"
-  integrity sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==
+"@vue/shared@3.3.7", "@vue/shared@^3.2.36":
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.7.tgz#0091852fe5cc4237c8440fe32f3ab6bc920ae6d9"
+  integrity sha512-N/tbkINRUDExgcPTBvxNkvHGu504k8lzlNQRITVnm6YjOjwa4r0nnbd4Jb01sNpur5hAllyRJzSK5PvB9PPwRg==
 
 "@vue/test-utils@^2.0.0-rc.18":
   version "2.0.0-rc.18"
@@ -3931,10 +3931,10 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-js@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmmirror.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
-  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
+crypto-js@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
+  integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
 
 crypto-random-string@^2.0.0:
   version "2.0.0"
