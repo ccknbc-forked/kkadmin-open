@@ -16,12 +16,12 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
-"@ant-design/icons-svg@^4.0.0":
+"@ant-design/icons-svg@^4.0.0", "@ant-design/icons-svg@^4.2.1":
   version "4.2.1"
   resolved "https://registry.npmmirror.com/@ant-design/icons-svg/-/icons-svg-4.2.1.tgz#8630da8eb4471a4aabdaed7d1ff6a97dcb2cf05a"
   integrity sha512-EB0iwlKDGpG93hW8f85CTJTs4SvMX7tt5ceupvhALp1IF44SeUFOMhKUOYqpsoYWQKAOuTRDMqn75rEaKDp0Xw==
 
-"@ant-design/icons-vue@^6.0.0", "@ant-design/icons-vue@^6.0.1":
+"@ant-design/icons-vue@^6.0.1":
   version "6.0.1"
   resolved "https://registry.npmmirror.com/@ant-design/icons-vue/-/icons-vue-6.0.1.tgz#9d804c3c74d2cfaf97cb18e582d3b9400934f5fd"
   integrity sha512-HigIgEVV6bbcrz2A92/qDzi/aKWB5EC6b6E1mxMB6aQA7ksiKY+gi4U94TpqyEIIhR23uaDrjufJ+xCZQ+vx6Q==
@@ -30,6 +30,14 @@
     "@ant-design/icons-svg" "^4.0.0"
     "@types/lodash" "^4.14.165"
     lodash "^4.17.15"
+
+"@ant-design/icons-vue@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons-vue/-/icons-vue-6.1.0.tgz#f9324fdc0eb4cea943cf626d2bf3db9a4ff4c074"
+  integrity sha512-EX6bYm56V+ZrKN7+3MT/ubDkvJ5rK/O2t380WFRflDcVFgsvl3NLH7Wxeau6R8DbrO5jWR6DSTC3B6gYFp77AA==
+  dependencies:
+    "@ant-design/colors" "^6.0.0"
+    "@ant-design/icons-svg" "^4.2.1"
 
 "@antfu/utils@^0.4.0":
   version "0.4.0"
@@ -1469,21 +1477,30 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@logicflow/core@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmmirror.com/@logicflow/core/-/core-1.0.7.tgz#f7287e62d2ad44634b65e5acf23f3fd655125977"
-  integrity sha512-+mQNzUKWPyr6NDMhzseoRfpiHtDlj4FwaOG+vNXUlMPLXmlV7aMPZ0EyK+QRl7yHv1hQX4ViRmTbDzR3zjskxA==
+"@logicflow/core@^1.1.19":
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/@logicflow/core/-/core-1.2.16.tgz#9de5ea6f4be65eacf5640120d000b3070bf0b268"
+  integrity sha512-t1UcxFEvEfDapH/zkq1us8ApKEEmyId2+7sIjLXops/ItjSjOWHX3oOvcQYXv+iZx2P14Qjhv0jQhC44KzK9Tw==
   dependencies:
     "@types/mousetrap" "^1.6.4"
     mousetrap "^1.6.5"
     preact "^10.4.8"
 
-"@logicflow/extension@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmmirror.com/@logicflow/extension/-/extension-1.0.7.tgz#573c42ec17e001a211d05e6d842b8b7064ef0e8a"
-  integrity sha512-Q4r+tybYqkyy1Ujia4WWp0bye/QIgqAOkG9rY9RPBZdJ4y+QLe6MpbL5cROFEs0G+7AxpIMYDUdwGaMYW0PZHQ==
+"@logicflow/core@^1.1.20":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@logicflow/core/-/core-1.1.20.tgz#6b87503282685fad4d4ce97362b786dd0d71611d"
+  integrity sha512-I32++G/4/jePOseJNsFVv1BL9bxu23UiLcxaAgd/6S5ccHyr0rWuIRKNqiEI/iys+ADSYxMMwYfGb/5Adw3vHw==
   dependencies:
-    "@logicflow/core" "^1.0.7"
+    "@types/mousetrap" "^1.6.4"
+    mousetrap "^1.6.5"
+    preact "^10.4.8"
+
+"@logicflow/extension@^1.1.19":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@logicflow/extension/-/extension-1.1.20.tgz#e14fcdb8ad6bacb9fea63e0c78bfb1ef134ca3ae"
+  integrity sha512-L/wBU8sARFqVZm9IUp7fM3Wfr4N6pDIqtLOauA4TyXP8ZbEvRkqzBsndh8qFUIJp1WjILmZE6xr8FcW4swvTrQ==
+  dependencies:
+    "@logicflow/core" "^1.1.20"
     ids "^1.0.0"
     preact "^10.4.8"
 
@@ -2348,13 +2365,28 @@
   dependencies:
     "@vue/shared" "3.2.29"
 
-"@vue/runtime-core@3.2.29", "@vue/runtime-core@^3.2.29":
+"@vue/reactivity@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.3.5.tgz#a75038ba78ecf85199eb81ab72752b5db01215c7"
+  integrity sha512-P7OBfPjsbV5lDCwZQDtWFqPh3uAP3Q6bRqYVgsYr6ki7jiaiHGSLmeaevUi+Nkev8nhublUpApnWevNiACN3sw==
+  dependencies:
+    "@vue/shared" "3.3.5"
+
+"@vue/runtime-core@3.2.29":
   version "3.2.29"
   resolved "https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.2.29.tgz#fb8577b2fcf52e8d967bd91cdf49ab9fb91f9417"
   integrity sha512-VMvQuLdzoTGmCwIKTKVwKmIL0qcODIqe74JtK1pVr5lnaE0l25hopodmPag3RcnIcIXe+Ye3B2olRCn7fTCgig==
   dependencies:
     "@vue/reactivity" "3.2.29"
     "@vue/shared" "3.2.29"
+
+"@vue/runtime-core@^3.2.29":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.3.5.tgz#0081c9f48369a42c407f915bb5bb620d74c7ebec"
+  integrity sha512-kxAW3fTzwzZQqiHV1SndTtLMlNfJ/bsvcYku6NDuPzTeG6sMOAIXvuz6N5NUox+P7sNCInESbSOrPMMvtWx3vA==
+  dependencies:
+    "@vue/reactivity" "3.3.5"
+    "@vue/shared" "3.3.5"
 
 "@vue/runtime-dom@3.2.29":
   version "3.2.29"
@@ -2373,10 +2405,15 @@
     "@vue/compiler-ssr" "3.2.29"
     "@vue/shared" "3.2.29"
 
-"@vue/shared@3.2.29", "@vue/shared@^3.2.27", "@vue/shared@^3.2.29":
+"@vue/shared@3.2.29", "@vue/shared@^3.2.27":
   version "3.2.29"
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.29.tgz#07dac7051117236431d2f737d16932aa38bbb925"
   integrity sha512-BjNpU8OK6Z0LVzGUppEk0CMYm/hKDnZfYdjSmPOs0N+TR1cLKJAkDwW8ASZUvaaSLEi6d3hVM7jnWnX+6yWnHw==
+
+"@vue/shared@3.3.5", "@vue/shared@^3.2.36":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.5.tgz#da717d8ce807d9d337f55ebcfb6cad7bf51e9a76"
+  integrity sha512-oNJN1rCtkqm1cIxU1BuZVEVRWIp4DhaxXucEzzZ/iDKHP71ZxhkBPNK+URySiECH6aiOZzC60PS2bd6JFznvNA==
 
 "@vue/test-utils@^2.0.0-rc.18":
   version "2.0.0-rc.18"
@@ -2592,14 +2629,15 @@ ansi-styles@^6.0.0:
   resolved "https://registry.npmmirror.com/ansi-styles/-/ansi-styles-6.1.0.tgz#87313c102b8118abd57371afab34618bf7350ed3"
   integrity sha512-VbqNsoz55SYGczauuup0MFUyXNQviSpFTj1RQtFzmQLk18qbVSpTFFGMT293rmDaQuKCT6InmbuEyUne4mTuxQ==
 
-ant-design-vue@3.0.0-beta.8:
-  version "3.0.0-beta.8"
-  resolved "https://registry.npmmirror.com/ant-design-vue/-/ant-design-vue-3.0.0-beta.8.tgz#9d47666833901eb8ec09646996abe0214ccd27de"
-  integrity sha512-3fgfg0pfIqvQ7VN5nKKZayqMH8V1T8nn+e3hWOz6QYdYa7gNydgm5GH+r8ZyhQitkmiAIYXbNDakcqrUdOPXOA==
+ant-design-vue@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/ant-design-vue/-/ant-design-vue-3.2.5.tgz#caca06fdba370fc351f3408cb16d36c0baac9513"
+  integrity sha512-O6nxTHkRgqI3zIZ702hfBM4pamsYJs5ey63DY3BAq5zy1thLxcjjx4K4V2Zf9QtVQgsD8bgf6qb605P14GIqAw==
   dependencies:
     "@ant-design/colors" "^6.0.0"
-    "@ant-design/icons-vue" "^6.0.0"
+    "@ant-design/icons-vue" "^6.1.0"
     "@babel/runtime" "^7.10.5"
+    "@ctrl/tinycolor" "^3.4.0"
     "@simonwep/pickr" "~1.8.0"
     array-tree-filter "^2.1.0"
     async-validator "^4.0.0"
@@ -10315,10 +10353,10 @@ tinycolor2@^1.4.2:
   resolved "https://registry.npmmirror.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
-tinymce@^5.10.2:
-  version "5.10.2"
-  resolved "https://registry.npmmirror.com/tinymce/-/tinymce-5.10.2.tgz#cf1ff01025909be26c64348509e6de8e70d58e1d"
-  integrity sha512-5QhnZ6c8F28fYucLLc00MM37fZoAZ4g7QCYzwIl38i5TwJR5xGqzOv6YMideyLM4tytCzLCRwJoQen2LI66p5A==
+tinymce@^5.10.8:
+  version "5.10.8"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.10.8.tgz#c85758fa3cca2cbb4b14dd037a0b315b6462c50e"
+  integrity sha512-iyoo3VGMAJhLMDdblAefKvYgBRk9kQi58GTwAmoieqsyggGsKZWlQl/YY6nTILFHUCA1FhYu0HdmM5YYjs17UQ==
 
 tmp@^0.0.33:
   version "0.0.33"
