@@ -59,7 +59,7 @@
     "pinia": "2.0.9",
     "print-js": "^1.6.0",
     "qrcode": "^1.5.0",
-    "qs": "^6.10.3",
+    "qs": "^6.14.1",
     "resize-observer-polyfill": "^1.5.1",
     "showdown": "^1.9.1",
     "sortablejs": "^1.14.0",
